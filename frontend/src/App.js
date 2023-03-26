@@ -1,7 +1,13 @@
+import Uploader from "./components/uploader";
+
 function App() {
+
+  //Environment Variables Configured Message
+  console.log(process.env.REACT_APP_ENV_STATUS);
+
   return (
     <div className="App">
-      <p>Test</p>
+      <Uploader />
     </div>
   );
 }
