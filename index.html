@@ -2,11 +2,11 @@
 <html>
 
 <head>
-    <title>Current Assignment</title>
+    <title>Assignment</title>
 </head>
 
 <body>
-    <p> You will be redirected to Current Assignment in <span id="time">5</span> sec </p>
+    <p> You will be redirected to Given Assignment in <span id="time">5</span> sec </p>
     <script>
         let sec = document.getElementById('time');
         setInterval(() => {
@@ -14,7 +14,7 @@
                 sec.innerText = parseInt(sec.innerText) - 1;
             }
             else {
-                window.location = "https://www.google.com";
+                window.location = "https://uploadyourfile.netlify.app";
             }
         }, 1000);
     </script>
