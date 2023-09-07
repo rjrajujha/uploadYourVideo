@@ -1,0 +1,17 @@
+{
+  "homepage": "https://rjrajujha.github.io/uploadYourVideo",
+  "name": "uploadyourvideo_react_app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predeploy": "cd frontend && npm run build",
+    "deploy": "cd frontend && gh-pages -d build",
+    "start": "cd frontend && react-scripts start",
+    "build": "cd frontend && react-scripts build",
+    "test": "cd frontend && react-scripts test",
+    "eject": "cd frontend && react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
